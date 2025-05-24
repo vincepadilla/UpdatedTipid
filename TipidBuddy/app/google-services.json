@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "25489034694",
+    "project_id": "sign-up-login-firebase-5893d",
+    "storage_bucket": "sign-up-login-firebase-5893d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25489034694:android:1f844477d60a152b2e36c7",
+        "android_client_info": {
+          "package_name": "com.example.tipidbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxOGsv9qwVAV73GcWPHOGvorazpIelBVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

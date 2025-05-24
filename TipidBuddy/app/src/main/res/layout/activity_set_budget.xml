@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".setBudget">
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="345dp"
+        android:layout_height="191dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467">
+
+        <!-- Budget Input -->
+        <EditText
+            android:id="@+id/budgetInput"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Enter Budget Amount (₱)"
+            android:inputType="numberDecimal" />
+
+        <!-- Weekly Reset Switch -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Weekly Reset"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/weeklyResetSwitch"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/applyBudgetButton"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:text="Apply Budget" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSetBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="SET BUDGET"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/contentLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

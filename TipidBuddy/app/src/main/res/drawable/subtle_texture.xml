@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Create a subtle noise pattern -->
+    <path
+        android:fillColor="#FFFACD"
+        android:pathData="M0 0h100v100H0z"/>
+
+    <!-- Random noise dots (very subtle) -->
+    <path
+        android:fillColor="#FFFAF0"
+        android:fillAlpha="0.03"
+        android:pathData="M10 15h1v1h-1z M25 30h1v1h-1z M40 5h1v1h-1z M55 80h1v1h-1z M70 45h1v1h-1z
+        M85 20h1v1h-1z M15 60h1v1h-1z M30 25h1v1h-1z M45 70h1v1h-1z M60 35h1v1h-1z M75 90h1v1h-1z
+        M90 55h1v1h-1z M20 10h1v1h-1z M35 85h1v1h-1z M50 40h1v1h-1z M65 15h1v1h-1z M80 60h1v1h-1z
+        M95 25h1v1h-1z M5 50h1v1h-1z M25 75h1v1h-1z M40 30h1v1h-1z M55 95h1v1h-1z M70 50h1v1h-1z
+        M85 15h1v1h-1z M10 80h1v1h-1z M30 45h1v1h-1z M45 10h1v1h-1z M60 65h1v1h-1z M75 30h1v1h-1z
+        M90 85h1v1h-1z M15 20h1v1h-1z M35 55h1v1h-1z M50 90h1v1h-1z M65 45h1v1h-1z M80 10h1v1h-1z
+        M95 65h1v1h-1z M5 30h1v1h-1z M20 95h1v1h-1z M40 60h1v1h-1z M55 25h1v1h-1z M70 80h1v1h-1z
+        M85 45h1v1h-1z M10 70h1v1h-1z M25 5h1v1h-1z M45 50h1v1h-1z M60 15h1v1h-1z M75 60h1v1h-1z
+        M90 25h1v1h-1z M5 80h1v1h-1z M20 35h1v1h-1z M35 90h1v1h-1z M50 45h1v1h-1z M65 10h1v1h-1z
+        M80 65h1v1h-1z M95 30h1v1h-1z M15 85h1v1h-1z M30 40h1v1h-1z M45 95h1v1h-1z M60 50h1v1h-1z
+        M75 15h1v1h-1z M90 70h1v1h-1z M5 35h1v1h-1z M25 60h1v1h-1z M40 25h1v1h-1z M55 80h1v1h-1z
+        M70 35h1v1h-1z M85 90h1v1h-1z M10 45h1v1h-1z M30 10h1v1h-1z M45 65h1v1h-1z M60 30h1v1h-1z
+        M75 85h1v1h-1z M90 40h1v1h-1z M15 95h1v1h-1z M35 50h1v1h-1z M50 15h1v1h-1z M65 70h1v1h-1z
+        M80 35h1v1h-1z M95 80h1v1h-1z M5 55h1v1h-1z M20 20h1v1h-1z M40 85h1v1h-1z M55 40h1v1h-1z
+        M70 95h1v1h-1z M85 50h1v1h-1z M10 25h1v1h-1z M30 90h1v1h-1z M45 45h1v1h-1z M60 10h1v1h-1z
+        M75 55h1v1h-1z M90 20h1v1h-1z M15 70h1v1h-1z M35 35h1v1h-1z M50 80h1v1h-1z M65 35h1v1h-1z
+        M80 90h1v1h-1z M95 45h1v1h-1z M5 90h1v1h-1z M20 55h1v1h-1z M40 20h1v1h-1z M55 75h1v1h-1z
+        M70 40h1v1h-1z M85 5h1v1h-1z M10 60h1v1h-1z M25 35h1v1h-1z M45 100h1v1h-1z M60 55h1v1h-1z
+        M75 20h1v1h-1z M90 75h1v1h-1z M15 40h1v1h-1z M35 5h1v1h-1z M50 60h1v1h-1z M65 25h1v1h-1z
+        M80 80h1v1h-1z M95 35h1v1h-1z M5 70h1v1h-1z M20 45h1v1h-1z M40 10h1v1h-1z M55 65h1v1h-1z
+        M70 30h1v1h-1z M85 85h1v1h-1z M10 50h1v1h-1z M30 15h1v1h-1z M45 70h1v1h-1z M60 35h1v1h-1z
+        M75 100h1v1h-1z M90 55h1v1h-1z M15 30h1v1h-1z M35 95h1v1h-1z M50 50h1v1h-1z M65 15h1v1h-1z
+        M80 70h1v1h-1z M95 25h1v1h-1z M5 60h1v1h-1z M20 35h1v1h-1z M40 100h1v1h-1z M55 55h1v1h-1z
+        M70 20h1v1h-1z M85 75h1v1h-1z M10 40h1v1h-1z M30 5h1v1h-1z M45 60h1v1h-1z M60 25h1v1h-1z
+        M75 80h1v1h-1z M90 35h1v1h-1z M15 100h1v1h-1z M35 55h1v1h-1z M50 20h1v1h-1z M65 75h1v1h-1z
+        M80 40h1v1h-1z M95 5h1v1h-1z M5 50h1v1h-1z M20 25h1v1h-1z M40 90h1v1h-1z M55 45h1v1h-1z
+        M70 10h1v1h-1z M85 65h1v1h-1z M10 30h1v1h-1z M30 95h1v1h-1z M45 50h1v1h-1z M60 15h1v1h-1z
+        M75 70h1v1h-1z M90 25h1v1h-1z M15 80h1v1h-1z M35 45h1v1h-1z M50 10h1v1h-1z M65 65h1v1h-1z
+        M80 30h1v1h-1z M95 85h1v1h-1z M5 40h1v1h-1z M20 5h1v1h-1z M40 70h1v1h-1z M55 35h1v1h-1z
+        M70 100h1v1h-1z M85 55h1v1h-1z M10 20h1v1h-1z M30 85h1v1h-1z M45 40h1v1h-1z M60 5h1v1h-1z
+        M75 60h1v1h-1z M90 15h1v1h-1z M15 70h1v1h-1z M35 35h1v1h-1z M50 100h1v1h-1z M65 55h1v1h-1z
+        M80 20h1v1h-1z M95 75h1v1h-1z"/>
+</vector>
